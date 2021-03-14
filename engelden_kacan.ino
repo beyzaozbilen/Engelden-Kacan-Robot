@@ -7,7 +7,7 @@
 #define MotorL2 4
 #define MotorLE 3
 
-
+//comment
 
 long sure, uzaklik; //süre ve uzaklık 
 
