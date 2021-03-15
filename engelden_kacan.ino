@@ -25,7 +25,7 @@ void setup() {
   pinMode(MotorRE, OUTPUT);
 
 
-  Serial.begin(9600);
+  
 
 }
 
@@ -41,7 +41,7 @@ void loop() {
   sure = pulseIn(echoPin, HIGH); 
   uzaklik = sure / 29.1 / 2; //ölçülen süre uzaklığa çevriliyor
 
-  Serial.println(uzaklik);
+ 
 
   if (uzaklik < 25) //
   {
